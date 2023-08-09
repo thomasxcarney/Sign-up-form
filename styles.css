@@ -1,6 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+}
+
+a {
+    color: antiquewhite;
 }
 
 body {
@@ -11,12 +16,17 @@ body {
 
 .content {
     display: flex;
+    height: 100vh;
 }
 
 .left-side {
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
+    flex: 1 1 AUTO;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+    justify-content: space-between;
 }
 
 .logo-container {
@@ -25,11 +35,32 @@ body {
     display: flex;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.356);
+    flex-wrap: nowrap;
+    flex: 0 1 auto;
+    margin-top: 3em;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.logo-text {
+    white-space: nowrap;
+    flex: 1 1 auto;
+    margin-left: 10px;
 }
 
 .logo-image {
     width: auto;
-    height: 3em;
+    height: 2em;
+    flex: 1 1 auto;
+}
+
+.image-credit {
+    color: rgb(222, 252, 251);
+    margin-bottom: 20px;
+}
+
+.right-side {
+    height: 100%;
 }
 
 .pitch {
