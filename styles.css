@@ -65,9 +65,9 @@ body {
 
 .pitch {
     background-color: rgb(205, 248, 255);
-    padding: 40px;
 }
 
 .form-container {
     background-color: whitesmoke;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.303);
 }
