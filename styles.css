@@ -114,6 +114,7 @@ body {
 
 .form-row input:focus {
     border-color: rgba(137, 224, 255, 0.803);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.303);
 }
 
 #submit {

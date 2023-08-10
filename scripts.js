@@ -7,7 +7,7 @@ const errorMessage = document.getElementsByClassName('password-error-message')[0
 function removeError() {
     passwordInputValue = passwordInput.value;
     passwordConfirmValue = passwordConfirm.value;
-    if(passwordInputValue === passwordConfirmValue) {
+    if(passwordInputValue === passwordConfirmValue && passwordInputValue != "") {
         passwordInput.classList.remove('error');
         passwordConfirm.classList.remove('error');
         errorMessage.innerHTML = "";
