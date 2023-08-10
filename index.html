@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
     <title>Sign-up form</title>
 </head>
 <body>
@@ -43,7 +44,7 @@
                 <div class="form-row-2 form-row">
                     <div class="input-container">
                         <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email" />
+                        <input type="email" id="email" name="email" placeholder="johndoe@odin.com" />
                     </div>
                     <div class="input-container">
                         <label for="phone-number">PHONE NUMBER</label>
@@ -53,11 +54,12 @@
                 <div class="form-row-3 form-row">
                     <div class="input-container">
                         <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password" />
+                        <input type="password" id="password" name="password" class="error" />
+                        <div class="password-error-message">*Passwords do not match</div>
                     </div>
                     <div class="input-container">
                         <label for="password-confirm">CONFIRM PASSWORD</label>
-                        <input type="password-confirm" id="password-confirm" name="password-confirm" />
+                        <input type="password-confirm" id="password-confirm" name="password-confirm" class="error" />
                     </div>
                 </div>
             </div>
