@@ -2,8 +2,7 @@ const passwordInput = document.getElementById('password');
 const passwordConfirm = document.getElementById('password-confirm');
 var passwordInputValue = passwordInput.value;
 var passwordConfirmValue = passwordConfirm.value;
-
-console.log(passwordConfirmValue)
+const errorMessage = document.getElementsByClassName('password-error-message')[0];
 
 function removeError() {
     passwordInputValue = passwordInput.value;
@@ -11,6 +10,7 @@ function removeError() {
     if(passwordInputValue === passwordConfirmValue) {
         passwordInput.classList.remove('error');
         passwordConfirm.classList.remove('error');
+        errorMessage.innerHTML = "";
     };
 };
 
