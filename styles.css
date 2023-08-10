@@ -90,6 +90,10 @@ body {
     justify-content: center;
 }
 
+form {
+    flex: 1 1 auto;
+}
+
 .form-container label {
     font-size: .7em;
 }
@@ -125,6 +129,7 @@ body {
     border: 1px solid grey;
     border-radius: 10px;
     font-size: 1em;
+    align-self: flex-start;
 }
 
 input.error, 
