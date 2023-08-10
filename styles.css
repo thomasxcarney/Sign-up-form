@@ -107,6 +107,7 @@ body {
 .form-row input {
     border: 1px solid grey;
     padding: 2px;
+    width: 20vw;
 }
 
 .form-row input:focus {
@@ -116,4 +117,9 @@ body {
 #submit {
     margin-bottom: 10px;
     padding: 5px 20px;
+    background-color: #009739;
+    color: #FEDD00;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-size: 1em;
 }
